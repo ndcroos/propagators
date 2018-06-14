@@ -1,6 +1,7 @@
+-- The module Data.Propagator explicity exports the following.
 module Data.Propagator
   ( Cell
-  , Change(..)
+  , Change(..) -- (..) is a shorthand for
   , Propagated(..)
   , PropagatedNum
   , PropagatedFloating
@@ -19,6 +20,7 @@ module Data.Propagator
   , backwards
   ) where
 
+-- The module imports the following.
 import Data.Propagator.Cell
 import Data.Propagator.Class
 import Data.Propagator.Num
